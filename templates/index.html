@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="'ja">
+    <head>
+        <meta charget="'UTF-8">
+        <title>NASゲー報告アプリ</title>
+
+    </head>
+    <body>
+        <h1>パスワードを入力してください</h1>
+        <form method="post" action="{{ url_for('reports')}}">
+         <input type="password" name="password"  autocomplete="off">
+         <input type="submit" value="決定">
+        </form>
+    </body>
+</html>

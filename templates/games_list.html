@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="'ja">
+    <head>
+        <meta charget="'UTF-8">
+        <title>NASゲー報告アプリ</title>
+
+    </head>
+    <body>
+        <h1>今日報告するゲーム</h1>
+        <h2>ゲーム一覧</h2>
+        <p>概要       : {{ data.content1 }}</p>
+        <p>匿名モード  : {{ data.content2 }}</p>
+        <p>画像       :</p>
+        <div>
+         <img src="{{ data.filedata1 }}" width=100 height=100 >
+         <img src="{{ data.filedata2 }}" width=100 height=100>
+         <img src="{{ data.filedata3 }}" width=100 height=100 >
+         <img src="{{ data.filedata4 }}" width=100 height=100>
+         <img src="C:\Users\User\OneDrive\デスクトップ\gamereport\saved_pictures\weatherbotaikonn.jpg" alt="picture5" width=100 height=100>
+        </div>
+    </body>
+</html>
